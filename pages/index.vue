@@ -22,7 +22,7 @@
           <a class="secondary--text font-weight-light" href="https://github.com/laplace-robotics" target="_blank">
             Github
           </a> -
-          <a class="secondary--text font-weight-light" href="mailto:kelvinchan@laplacerobotics.com" target="_blank">
+          <a class="secondary--text font-weight-light" href="mailto:rae@laplacerobotics.com" target="_blank">
             Contact Us
           </a>
         </strong>
