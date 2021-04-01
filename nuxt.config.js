@@ -1,12 +1,17 @@
 import colors from 'vuetify/es5/util/colors'
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  base: '/laplace-robotics.github.io/'
+} : {};
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  router: {
-    base: '/laplace-robotics.github.io/'
-  },
+  // router: {
+  //   base: '/laplace-robotics.github.io/'
+  // },
+  router: routerBase,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
